@@ -1,0 +1,27 @@
+* +html .tutor-area .tutor-list .list .tbl {
+	display:block;
+	position:relative;
+}
+* +html .tutor-area .tutor-list .list .tbl-cell {
+	position:absolute;
+	top:50%;
+}
+* +html .tutor-area .tutor-list .list .tbl-in {
+	position:relative;
+	top:-50%;
+}
+* +html .tutor-area .tutor-list > li,
+* +html .tutor-area .tutor-list .list li,
+* +html .tutor-area .paging li {display:inline;}
+* +html .tutor-area .paging li {
+	margin-left:2px;
+	margin-right:1px;
+}
+.tooltip {filter: alpha(opacity=0);}
+.tooltip.in {filter: alpha(opacity=80);}
+.tutor-area,
+.tutor-area .tutor-list,
+.tutor-area .tutor-list .media,
+.tutor-area .paging,
+.info-area {zoom:1;}
+.promo {filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/bg-promo.jpg', sizingMethod='scale');}
